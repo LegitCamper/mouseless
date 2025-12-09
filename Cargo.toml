@@ -1,0 +1,14 @@
+[package]
+name = "mouseless"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ashpd = "0.12.0"
+doe = { version = "1.1.69", features = ["mouse"] }
+eframe = "0.33.2"
+egui = "0.26"
+egui_extras = { version = "0.33.2", features = ["image"] }
+# enigo = { version = "0.6.1", features = ["wayland"] }
+enigo = { git = "https://github.com/enigo-rs/enigo", features = ["wayland"] }
+tokio = { version = "1.48.0", features = ["full"] }
